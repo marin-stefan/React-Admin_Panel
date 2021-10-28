@@ -1,41 +1,49 @@
-# JavaScript Advanced - Proiectul 1
+# JavaScript Advanced - REACT - Proiectul 1
 
-## Rularea proiectului
+## Contains
 
-#### 1. `git clone https://github.com/razvancir96/react-admin-panel.git`
+#### 1. Header
 
-#### 2. `cd react-admin-panel`
+#### 2. Nav-Bar
 
-#### 3. `npm install` (posibil sa dureze)
+#### 3. User-Add-form
 
-#### 4. `npm start`
+#### 4. Content
 
-## Cursuri precedente
+#### 5. Footer
 
-Pentru a vedea progresiv cum a fost realizat acest proiect urmariti urmatoarele repo-uri. Comentariile/console.log-urile din fiecare fisier sunt specifice cursurului la care au fost facute. Versiunea finala este fara comentarii sau console.log-uri.
+## Description
 
-#### Cursul 2: https://github.com/razvancir96/react-curs02
+This is a small project that covers the first half of the course.It is a SPA displaying a Header with a title,a navbar with four buttons, a main section devided into a user add form to the left and a content to the right and a footer on the bottom offcourse.
+The buttons on the navbar have different functionality. The first two are color input buttons that change the background color of the main window and the text color of the page and the other two decide what is shown in the content section, either the list of users or the list of posts.
+The user add for adds users to the user list that is fetced and displayed onload. The for has data validation,the name can not be empty and the email must have correct format. Also it has a Gold client checkbox.
+The content section displays a list of users that comes from the given API or a list of posts from the API.
+It is a list of users or posts that individually have a delete button that will delete the certain user or post from the current displayed list.
+The Footer section displays info for the Project and the developer 
 
-#### Cursul 3: https://github.com/razvancir96/react-curs03
 
-#### Cursul 4: https://github.com/razvancir96/react-curs04
 
-## Cerințe de implementat
+## Requirements were :
 
-Pentru a continua proiectul, aveți de implementat cerințele care au fost date de-a lungul cursurilor 2-4:
 
-2.1. Adăugați două proprietăți noi pentru fiecare user: salariu și imagine. Dați valori pentru acestea și afișați-le pe ecran.
+1. Start by creating a basic React Project.
 
-2.2. Adăugați un nou input de tip culoare. La schimbarea culorii lui, culoarea textului pentru întreaga aplicație se va schimba.
+2. Add a user-add-form with name,email and a checkbox for Gold client.
 
-3.1. Creați două componente noi, numite PostList și PostItem. PostList va fi o listă de componente de tip PostItem.
-În componenta PostList, atunci când este afișată pe ecran, faceți un request catre endpoint-ul /posts, de pe JSON placeholder, afișând datele preluate. Practic, o singură dată veți face request către url-ul https://jsonplaceholder.typicode.com/posts.
+3. Add a color input button to change the background color of the window,set the initial background to white.
 
-3.2. Creați două butoane: Afișează useri și Afișează postări. Implicit, vor fi afișați userii. La click pe oricare din cele două butoane, va fi actualizată lista afișată pe ecran. Dacă dăm click pe butonul Afișează useri va fi afișată lista userilor, dacă dăm click pe Afișează postări va fi afișată lista postărilor.
+4. Add another color input button that changes text color for the whole app. Choose a default color.
 
-4.1 Adăugați pe fiecare user un buton de ștergere.
+5. Create two new components UserList and UserItem. UserList will be a list of UserItem components.In UserList each UserItem component will have data taken from the url https://jsonplaceholder.typicode.com/users.
 
-4.2. Faceți puțină validare a datelor. Spre exemplu, să nu poată fi introdus un nume gol, iar emailul să conțină caracterele `@` și `.`.
+6. Create two new components PostList and PostItem. PostList will be a list of PostItem components.In PostList each PostItem component will have data taken from the url https://jsonplaceholder.typicode.com/posts.
 
-4.3. Stilizați aplicația, astfel încât să arate mai frumos.
+7. Create 2 buttons: Show Users and Show posts. Default users will be shown.On click the list shown on the screen must be updated according to the button, showing users for 'Show Users' and showing posts for 'Show Posts'.
+
+8. Add Delete button for every user / post . The buttons will update the displayed list .
+
+9. Add data validation for name and email . No empty names or no incorrect email formats allowed.
+
+10. Add styling for more user-friendly experience , colors,and design 
+
 
