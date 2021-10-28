@@ -22,36 +22,45 @@ class UserAddForm extends React.Component {
         this.setState({isGoldClient: event.target.checked});
     }
 
+    formReset() { 
+        document.getElementById("create-course-form").reset();
+      }
+
     render() {
         const {name, email, isGoldClient} = this.state;
+        
 
         return (
             <form
                 className="user-add-form"
                 onSubmit={(event) => this.props.submitAddForm(event, name, email, isGoldClient)}
             >
-                <h2>Adauga utilizatori:</h2>
-                <label htmlFor="name">Nume:</label>
+                <h2>Add Users:</h2>
+                <label htmlFor="name">Name:</label>
                 <input
                     type="text"
                     name="name"
+                    required="required"
                     onChange={(event) => this.updateName(event)}
                 />
                 <label htmlFor="email">Email:</label>
                 <input
-                    type="text"
+                    type="email"  
                     name="email"
+                    required="required"
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"
                     onChange={(event) => this.updateEmail(event)}
                 />
-                <label htmlFor="is-gold-client">Client GOLD</label>
+                <label htmlFor="is-gold-client">GOLD Client ?</label>
                 <input
+                    id="check-box"
                     type="checkbox"
                     name="is-gold-client"
                     value="true"
                     onChange={(event) => this.updateIsGoldClient(event)}
                 />
 
-                <input type="submit" value="Introdu utilizatorul"/>
+                <input type="submit" value="Add User"/>
             </form>
         )
     }

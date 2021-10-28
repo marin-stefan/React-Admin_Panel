@@ -1,0 +1,12 @@
+.post-item {
+    background-color: rgb(207, 189, 86);
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow:1px -1px 5px 3px rgb(207, 189, 86);
+}
+
+.post-item button {
+    border-radius: 5px;
+    box-shadow:0.5px 0.5px 7px black;
+}

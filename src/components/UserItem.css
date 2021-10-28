@@ -1,0 +1,22 @@
+.user-item {
+    background-color: rgb(207, 189, 86);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow:1px -1px 5px 3px rgb(207, 189, 86);
+    display:flex;
+    justify-content:space-between
+}
+
+.user-item img{
+    width: 100px;
+}
+
+#user-item-picture {
+    width:80%;
+}
+
+.user-item button {
+    border-radius: 5px;
+    box-shadow:0.5px 0.5px 7px black;
+}
