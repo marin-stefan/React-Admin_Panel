@@ -27,23 +27,25 @@ The Footer section displays info for the Project and the developer.
 ## Requirements were :
 
 
-1. Start by creating a basic React Project.
+* Start by creating a basic React Project.
 
-2. Add a user-add-form with name, email and a checkbox for gold client.
+* Add a title
 
-3. Add a color input button to change the background color of the window, set the initial background to white.
+* Add a user-add-form with name, email and a checkbox for gold client.
 
-4. Add another color input button that changes text color for the whole app. Choose a default color.
+* Add a color input button to change the background color of the window, set the initial background to white.
 
-5. Create two new components UserList and UserItem. UserList will be a list of UserItem components. In UserList each UserItem component will have data taken from the url https://jsonplaceholder.typicode.com/users.
+* Add another color input button that changes text color for the whole app. Choose a default color.
 
-6. Create two new components PostList and PostItem. PostList will be a list of PostItem components. In PostList each PostItem component will have data taken from the url https://jsonplaceholder.typicode.com/posts.
+* Create two new components UserList and UserItem. UserList will be a list of UserItem components. In UserList each UserItem component will have data taken from the url https://jsonplaceholder.typicode.com/users.
 
-7. Create 2 buttons: Show Users and Show posts. Default users will be shown. On click the list shown on the screen must be updated according to the button, showing users for 'Show Users' and showing posts for 'Show Posts'.
+* Create two new components PostList and PostItem. PostList will be a list of PostItem components. In PostList each PostItem component will have data taken from the url https://jsonplaceholder.typicode.com/posts.
 
-8. Add Delete button for every user / post. The buttons will update the displayed list.
+* Create 2 buttons: Show Users and Show posts. Default users will be shown. On click the list shown on the screen must be updated according to the button, showing users for 'Show Users' and showing posts for 'Show Posts'.
 
-9. Add data validation for name and email. No empty names or no incorrect email formats allowed.
+* Add Delete button for every user / post. The buttons will update the displayed list.
 
-10. Add styling and structural design for more user-friendly experience.
+* Add data validation for name and email. No empty names or no incorrect email formats allowed.
+
+* Add styling and structural design for more user-friendly experience.
 
