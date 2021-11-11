@@ -8,10 +8,10 @@
     display: flex;
     flex-direction: column;
     width: 20%;
-    background-color: darkseagreen;
+    /* background-color: darkseagreen; */
     border-radius: 10px;
     padding: 10px;
-    box-shadow:1px -1px 10px 10px darkseagreen;
+    /* box-shadow:1px -1px 10px 10px darkseagreen; */
 }
 
 .user-add-form input {

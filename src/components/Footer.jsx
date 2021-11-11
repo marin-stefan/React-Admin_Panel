@@ -1,9 +1,8 @@
 import React from "react";
-import "./Footer.css";
 
 function Footer() {
   return (
-    <header className="footer">
+    <header className="d-flex justify-content-around shadow-lg py-4 rounded-3 mx-4 my-2 border border-warning">
       <div>
         <h4>Marin Stefan Daniel</h4>
         <h5>Javascript React course Project 1</h5>

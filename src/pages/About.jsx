@@ -1,14 +1,11 @@
 import React from "react";
 import Layout from "../components/Layout";
-import "../components/About.css";
 
 function About() {
-  {
-  }
   return (
     <Layout>
-      <div className="about">
-        <h3>React Project 1</h3>
+      <div className="bg-warning rounded-3 mx-4 px-3 py-3 shadow-lg">
+        <h3 className="text-center">React Project 1</h3>
         <br />
         <ul>
           <li>
@@ -25,6 +22,9 @@ function About() {
             color of the main window and the text color of the page and the
             other two decide what is shown in the content section, either the
             list of users or the list of posts.{" "}
+          </li>
+          <li>
+            The list of users / posts shown is set to 3 elements 
           </li>
           <li>
             The user add for adds users to the user list that is fetched and

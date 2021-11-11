@@ -1,5 +1,4 @@
 import React from "react";
-import "./UserAddForm.css";
 
 class UserAddForm extends React.Component {
   constructor(props) {
@@ -24,7 +23,7 @@ class UserAddForm extends React.Component {
   }
 
   formReset() {
-    document.getElementById("create-course-form").reset();
+    document.querySelector(".add-form").reset();
   }
 
   render() {
@@ -32,15 +31,16 @@ class UserAddForm extends React.Component {
 
     return (
       <form
-        className="user-add-form"
+        className="add-form px-2 py-2 form-group  "
         onSubmit={(event) =>
           this.props.submitAddForm(event, name, email, isGoldClient)
         }
       >
-        <h2>Add Users:</h2>
+        <h2 className="px-3 py-3">Add Users:</h2>
         <label htmlFor="name">Name:</label>
         <input
           type="text"
+          className="form-control"
           name="name"
           required="required"
           onChange={(event) => this.updateName(event)}
@@ -48,21 +48,29 @@ class UserAddForm extends React.Component {
         <label htmlFor="email">Email:</label>
         <input
           type="email"
+          className="form-control"
           name="email"
           required="required"
           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"
           onChange={(event) => this.updateEmail(event)}
         />
-        <label htmlFor="is-gold-client">GOLD Client ?</label>
+
         <input
           id="check-box"
+          className="form-check-input"
           type="checkbox"
           name="is-gold-client"
           value="true"
           onChange={(event) => this.updateIsGoldClient(event)}
         />
-
-        <input type="submit" value="Add User" />
+        <label htmlFor="is-gold-client"> GOLD Client ? </label>
+        <br />
+        <br />
+        <input
+          type="submit"
+          value="Add User"
+          className="rounded-3 btn btn-primary btn-sm btn-shadow"
+        />
       </form>
     );
   }

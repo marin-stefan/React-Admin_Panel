@@ -1,16 +1,19 @@
 import React from "react";
-import "./PostItem.css";
 
 function PostItem(props) {
   const { id, title, body, deletePostItem } = props;
-  console.log(id);
 
   return (
-    <div className="post-item">
+    <div className="bg-warning mx-3 my-2 px-2 py-2 rounded-3 shadow-lg border border-primary">
       <h2>{title}</h2>
       <br />
       <p>{body}</p>
-      <button onClick={() => deletePostItem(id)}>Delete Post</button>
+      <button
+        className="rounded-3 btn btn-primary btn-sm btn-shadow"
+        onClick={() => deletePostItem(id)}
+      >
+        Delete Post
+      </button>
     </div>
   );
 }
