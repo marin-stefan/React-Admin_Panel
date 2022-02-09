@@ -3,7 +3,7 @@ import React from "react";
 function Page404() {
   return (
     <div>
-      <div className=" text-center fs-1 py-5 my-5">
+      <div className=" text-center fs-1 py-5 my-5 font-monospace fst-normal">
         <p className=" badge text-warning">Error !!! </p>
         <br />
         <p className=" badge text-warning">Dear Human ,</p>

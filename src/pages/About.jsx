@@ -9,39 +9,72 @@ function About() {
         <br />
         <ul>
           <li>
-            This is a small project that covers the first half of the course.
+            <p>
+              This is a small project that covers the first half of the course.
+            </p>
           </li>
           <li>
-            It is a SPA displaying a Header with a title, a navbar with four
-            buttons, a main section divided into a user add form to the left and
-            a content to the right and a footer on the bottom off course.{" "}
-          </li>
-          <li>The buttons on the navbar have different functionality. </li>
-          <li>
-            The first two are color input buttons that change the background
-            color of the main window and the text color of the page and the
-            other two decide what is shown in the content section, either the
-            list of users or the list of posts.{" "}
+            <p>
+              It is a SPA displaying a Header with a title, a navbar with four
+              buttons, a main section divided into a user add form to the left
+              and a content to the right and a footer on the bottom off course.
+            </p>
           </li>
           <li>
-            The list of users / posts shown is set to 3 elements 
+            <p>The buttons on the navbar have different functionality.</p>
           </li>
           <li>
-            The user add for adds users to the user list that is fetched and
-            displayed onload.
+            <p>
+              The first two are color input buttons that change the background
+              color of the main window and the text color of the page and the
+              other two decide what is shown in the content section, either the
+              list of users or the list of posts.
+            </p>
           </li>
           <li>
-            The form has data validation, the name cannot be empty, and the
-            email must have correct format. Also, it has a gold client checkbox.
+            <p>The list of users / posts sis fetched from the Json Placeholder free API .</p>
           </li>
           <li>
-            The content section displays a list of users that comes from the
-            given API or a list of posts from the API. It is a list of users or
-            posts that individually have a delete button that will delete the
-            certain user or post from the current displayed list.
+            <p>The list of users / posts shown on initial fetch from the API is set to maximum 3 elements.</p>
           </li>
           <li>
-            The Footer section displays info for the Project and the developer.
+            <p>
+              The user add for adds users to the user list that is fetched and
+              displayed onload.
+            </p>
+          </li>
+          <li>
+            <p>
+              The form has data validation, the name cannot be empty, and the
+              email must have correct format. Also, it has a gold client
+              checkbox.
+            </p>
+          </li>
+          <li>
+            <p>
+              The content section displays the list of users/posts that came from the
+              given API. Each one have a delete button that will delete
+              the certain user or post from the current displayed list.
+            </p>
+          </li>
+          <li>
+            <p>
+              The Footer section displays info for the Project and the
+              developer.
+            </p>
+          </li>
+          <li>
+            <h6>
+              For more information chech out the Git Repository &nbsp;
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/stefann06/React-Project1.git"
+              >
+                here
+              </a>
+              .
+            </h6>
           </li>
         </ul>
       </div>

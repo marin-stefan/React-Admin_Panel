@@ -5,8 +5,8 @@ function PostList(props) {
   const { posts, deletePost } = props;
 
   return (
-    <div className="">
-      <h2 className="px-3 py-3">Post's list :</h2>
+    <div>
+      <h2 className="mx-5 px-3 py-3">Post's list :</h2>
       {posts.map((post, index) => {
         return (
           <PostItem
@@ -18,6 +18,7 @@ function PostList(props) {
           />
         );
       })}
+      ;
     </div>
   );
 }

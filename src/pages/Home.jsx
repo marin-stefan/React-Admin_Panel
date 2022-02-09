@@ -25,6 +25,10 @@ class Home extends React.Component {
     this.setState({ color: event.target.value });
   }
 
+  changeDisplay(value) {
+    this.setState({ display: value });
+  }
+
   componentDidMount() {
     fetch("https://jsonplaceholder.typicode.com/users")
       .then((response) => response.json())
@@ -41,11 +45,7 @@ class Home extends React.Component {
         data = data.filter((post) => post.id < 4);
         this.setState({ posts: data });
       });
-  }
-
-  changeDisplay(value) {
-    this.setState({ display: value });
-  }
+  }; 
 
   displayComponent() {
     if (this.state.display === "users") {
