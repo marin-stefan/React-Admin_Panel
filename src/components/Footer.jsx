@@ -18,7 +18,7 @@ function Footer() {
           </a>
         </h5>
         <h5>I'm on &nbsp;
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/stefann06">
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/marin-stefan">
             GitHub
           </a>
         </h5>

@@ -65,11 +65,11 @@ function About() {
           </li>
           <li>
             <h6>
-              For more information chech out the Git Repository &nbsp;
+              For more information check out the Git Repository &nbsp;
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/stefann06/React-Project1.git"
+                href="https://github.com/marin-stefan/React-Project1.git"
               >
                 here
               </a>
