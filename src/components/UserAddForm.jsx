@@ -37,7 +37,7 @@ class UserAddForm extends React.Component {
         }
       >
         <h2 className="px-3 py-3">Add Users:</h2>
-        <label htmlFor="name">Name:</label>
+        <label htmlFor="name"><h6>Name:</h6></label>
         <input
           type="text"
           className="form-control"
