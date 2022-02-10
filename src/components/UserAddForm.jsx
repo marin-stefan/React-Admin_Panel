@@ -45,7 +45,9 @@ class UserAddForm extends React.Component {
           required="required"
           onChange={(event) => this.updateName(event)}
         />
-        <label htmlFor="email">Email:</label>
+        <label htmlFor="email">
+          <h6> Email:</h6>
+        </label>
         <input
           type="email"
           className="form-control"
@@ -54,22 +56,22 @@ class UserAddForm extends React.Component {
           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"
           onChange={(event) => this.updateEmail(event)}
         />
-
         <input
           id="check-box"
-          className="form-check-input"
+          className="form-check-input my-2"
           type="checkbox"
           name="is-gold-client"
           value="true"
           onChange={(event) => this.updateIsGoldClient(event)}
         />
-        <label htmlFor="is-gold-client"> GOLD Client ? </label>
-        <br />
+        <label className="my-2" htmlFor="is-gold-client">
+          <h6>&nbsp; GOLD User ? </h6>
+        </label>
         <br />
         <input
           type="submit"
           value="Add User"
-          className="rounded-3 btn btn-primary btn-sm btn-shadow"
+          className="rounded-3 btn btn-outline-primary btn-sm btn-shadow border-warning"
         />
       </form>
     );

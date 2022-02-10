@@ -17,7 +17,7 @@ function UserItem(props) {
         <p className="card-text">Salariu : 4990</p>
         {isGoldClient ? <h5 className="crad-text">Client GOLD</h5> : null}
         <button
-          className="rounded-3 btn btn-primary btn-sm btn-shadow"
+          className="rounded-3 btn btn-primary btn-sm btn-shadow border-light"
           onClick={() => deleteUserItem(id)}
         >
           Delete User

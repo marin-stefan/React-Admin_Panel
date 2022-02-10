@@ -45,7 +45,7 @@ class Home extends React.Component {
         data = data.filter((post) => post.id < 4);
         this.setState({ posts: data });
       });
-  }; 
+  }
 
   displayComponent() {
     if (this.state.display === "users") {

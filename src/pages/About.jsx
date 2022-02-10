@@ -32,10 +32,16 @@ function About() {
             </p>
           </li>
           <li>
-            <p>The list of users / posts sis fetched from the Json Placeholder free API .</p>
+            <p>
+              The list of users / posts sis fetched from the Json Placeholder
+              free API .
+            </p>
           </li>
           <li>
-            <p>The list of users / posts shown on initial fetch from the API is set to maximum 3 elements.</p>
+            <p>
+              The list of users / posts shown on initial fetch from the API is
+              set to maximum 3 elements.
+            </p>
           </li>
           <li>
             <p>
@@ -52,8 +58,8 @@ function About() {
           </li>
           <li>
             <p>
-              The content section displays the list of users/posts that came from the
-              given API. Each one have a delete button that will delete
+              The content section displays the list of users/posts that came
+              from the given API. Each one have a delete button that will delete
               the certain user or post from the current displayed list.
             </p>
           </li>

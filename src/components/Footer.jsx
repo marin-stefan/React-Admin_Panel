@@ -7,34 +7,48 @@ function Footer() {
         <h4>Marin Stefan Daniel</h4>
         <h5>Javascript React course Project 1</h5>
         <h5>No rights Reserved &copy; 2022</h5>
-        <h5>&#9993; stefann06@yahoo.com</h5>
       </div>
       <div>
-        
-        <h5>&#9743; +40734576702</h5>
-        <h5>Follow me on &nbsp;
-          <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/marinstefan">
+        <h5>
+          Follow me on &nbsp;
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://linkedin.com/in/marinstefan"
+          >
             LinkedIn
           </a>
         </h5>
-        <h5>I'm on &nbsp;
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/marin-stefan">
+        <h5>
+          I'm on &nbsp;
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/marin-stefan"
+          >
             GitHub
           </a>
         </h5>
-        <h5>Theese are my  &nbsp;
-          <a target="_blank" rel="noopener noreferrer" href="https://marinstefan.herokuapp.com">
+        <h5>
+          These are my &nbsp;
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://marinstefan.herokuapp.com"
+          >
             Projects
           </a>
         </h5>
       </div>
       <div>
         <h5>
-          <a href="./About">About</a>{" "}
-        </h5>
-        <h5>
           <a href="./">Home</a>
         </h5>
+        <h5>
+          <a href="./About">About</a>{" "}
+        </h5>
+        <h5>&#9993; stefann06@yahoo.com</h5>
+        <h5>&#9743; +40734576702</h5>
       </div>
     </header>
   );

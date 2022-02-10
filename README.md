@@ -37,9 +37,9 @@ The Footer section displays info for the Project and the developer.
 
 * Add another color input button that changes text color for the whole app. Choose a default color.
 
-* Create two new components UserList and UserItem. UserList will be a list of UserItem components. In UserList each UserItem component will have data taken from the url https://jsonplaceholder.typicode.com/users.
+* Create two new components UserList and UserItem. UserList will be a list of UserItem components. In UserList each UserItem component will have data taken from the URL https://jsonplaceholder.typicode.com/users.
 
-* Create two new components PostList and PostItem. PostList will be a list of PostItem components. In PostList each PostItem component will have data taken from the url https://jsonplaceholder.typicode.com/posts.
+* Create two new components PostList and PostItem. PostList will be a list of PostItem components. In PostList each PostItem component will have data taken from the URL https://jsonplaceholder.typicode.com/posts.
 
 * Create 2 buttons: Show Users and Show posts. Default users will be shown. On click the list shown on the screen must be updated according to the button, showing users for 'Show Users' and showing posts for 'Show Posts'.
 

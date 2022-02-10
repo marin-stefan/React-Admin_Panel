@@ -4,8 +4,8 @@ function NavBar(props) {
   const { changeBackgroundColor, changeTextColor, changeTheDisplay } = props;
   return (
     <nav className="rounded-3 border border-warning mx-4 mb-2 shadow-lg d-flex justify-content-around px-3 py-3">
-      <div className="btn-shadow bg-warning rounded">
-        <label className="badge bg-secondary py-3 mx-2 mb-3" htmlFor="bg-color">
+      <div className="btn-shadow bg-warning rounded border border-light">
+        <label className="badge bg-secondary py-3 mx-2 mb-3 border border-primary" htmlFor="bg-color">
           Background color:
         </label>
         <input
@@ -18,8 +18,8 @@ function NavBar(props) {
           onChange={(event) => changeBackgroundColor(event)}
         />
       </div>
-      <div className="btn-shadow bg-warning rounded">
-        <label className="badge bg-secondary py-3 mx-2 mb-3" htmlFor="color">
+      <div className="btn-shadow bg-warning rounded border border-light">
+        <label className="badge bg-secondary py-3 mx-2 mb-3 border border-primary" htmlFor="color">
           Text color:
         </label>
         <input
@@ -35,14 +35,14 @@ function NavBar(props) {
 
       <button
         type="button"
-        className="btn btn-warning btn-shadow"
+        className="btn btn-warning btn-shadow border-light"
         onClick={() => changeTheDisplay("posts")}
       >
         Show Posts
       </button>
       <button
         type="button"
-        className="btn btn-warning btn-shadow "
+        className="btn btn-warning btn-shadow border-light"
         onClick={() => changeTheDisplay("users")}
       >
         Show Users
