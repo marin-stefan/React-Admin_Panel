@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 function About() {
   return (
     <Layout>
-      <div className="bg-warning rounded-3 mx-4 px-3 py-3 shadow-lg">
+      <div className="container-md bg-warning rounded-3 p-3 shadow-lg">
         <h3 className="text-center">React Project 1</h3>
         <br />
         <ul>

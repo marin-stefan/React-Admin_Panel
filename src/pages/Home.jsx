@@ -104,7 +104,7 @@ class Home extends React.Component {
   render() {
     return (
       <div
-        className="app"
+        className=""
         style={{
           background: this.state.background,
           color: this.state.color,
@@ -117,15 +117,19 @@ class Home extends React.Component {
             changeTextColor={(event) => this.changeTextColor(event)}
             changeTheDisplay={(value) => this.changeDisplay(value)}
           />
-          <div className="d-flex border border-warning mx-4 rounded-3">
-            <div className="w-25">
-              <UserAddForm
-                submitAddForm={(event, name, email, isGoldClient) =>
-                  this.submitAddForm(event, name, email, isGoldClient)
-                }
-              />
+          <div className="container-md border border-warning rounded-3">
+            <div className="row">
+              <div className="col-sm-4">
+                <UserAddForm
+                  submitAddForm={(event, name, email, isGoldClient) =>
+                    this.submitAddForm(event, name, email, isGoldClient)
+                  }
+                />
+              </div>
+              <div className="col-sm-8">
+                {this.displayComponent()}
+              </div>
             </div>
-            <div className="w-75">{this.displayComponent()}</div>
           </div>
         </Layout>
       </div>

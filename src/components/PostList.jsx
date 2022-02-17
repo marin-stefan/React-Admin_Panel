@@ -6,7 +6,7 @@ function PostList(props) {
 
   return (
     <div>
-      <h2 className="mx-5 px-3 py-3">Post's list :</h2>
+      <h2 className="mx-5 p-3">Post's list :</h2>
       {posts.map((post, index) => {
         return (
           <PostItem

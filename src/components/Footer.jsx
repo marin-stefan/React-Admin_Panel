@@ -2,13 +2,14 @@ import React from "react";
 
 function Footer() {
   return (
-    <header className="d-flex justify-content-around shadow-lg py-4 rounded-3 mx-4 my-2 border border-warning bg-light">
-      <div>
+    <header className="container-md shadow-lg py-4 my-2 rounded-3  border border-warning bg-light">
+      <div className="row ">
+      <div className="col-lg-4">
         <h4>Marin Stefan Daniel</h4>
         <h5>Javascript React course Project 1</h5>
         <h5>No rights Reserved &copy; 2022</h5>
       </div>
-      <div>
+      <div className="col-lg-4">
         <h5>
           Follow me on &nbsp;
           <a
@@ -40,7 +41,8 @@ function Footer() {
           </a>
         </h5>
       </div>
-      <div>
+
+      <div className="col-lg-4">
         <h5>
           <a href="./">Home</a>
         </h5>
@@ -49,6 +51,7 @@ function Footer() {
         </h5>
         <h5>&#9993; stefann06@yahoo.com</h5>
         <h5>&#9743; +40734576702</h5>
+      </div>
       </div>
     </header>
   );
