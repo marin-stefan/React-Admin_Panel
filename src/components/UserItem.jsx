@@ -4,7 +4,7 @@ import "./BtnShadow.css";
 function UserItem(props) {
   const { id, name, email, isGoldClient, deleteUserItem } = props;
   return (
-    <div className=" bg-light rounded-3 border border-primary pt-1  col-sm-10 col-md-8 col-lg-6 col-xl-6 col-xxl-3 ">
+    <div className=" bg-light rounded-3 border border-primary pt-1 my-1 col-sm-10 col-md-8 col-lg-6 col-xl-6 col-xxl-3 ">
       <img
         className="card-img-top border-bottom border-dark"
         src="https://i.ibb.co/dL4M53M/ugly.jpg"
