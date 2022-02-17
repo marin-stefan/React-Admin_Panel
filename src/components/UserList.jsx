@@ -8,7 +8,7 @@ function UserList(props) {
     <div>
       <h2 className="mx-5 p-3">User's list :</h2>
       <div className="container">
-        <div className="row">
+        <div className="row d-flex justify-content-around">
           {users.map((user, index) => {
             return (
               <UserItem

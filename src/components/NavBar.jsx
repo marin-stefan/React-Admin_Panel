@@ -6,7 +6,7 @@ function NavBar(props) {
     <nav className="rounded-3 border border-warning my-2 shadow-lg container-md">
       <div className="row">
         <div className="col-sm-6 p-2 d-flex justify-content-around">
-          <div className=" rounded border border-light fs-6 fw-bold">
+          <div className=" rounded   fs-6 fw-bold">
             <label
               className=""
               htmlFor="bg-color"
@@ -25,7 +25,7 @@ function NavBar(props) {
             />
           </div>
 
-          <div className=" rounded border border-light fs-6 fw-bold">
+          <div className=" rounded  fs-6 fw-bold">
             <label
               className=""
               htmlFor="color"
