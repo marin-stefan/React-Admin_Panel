@@ -35,7 +35,7 @@ function Footer() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://marinstefan.herokuapp.com"
+            href="https://marin-stefan.github.io/portfoliosimple/"
           >
             Projects
           </a>
