@@ -3,7 +3,7 @@ import "./App.css";
 import { Route, Routes } from "react-router";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Page404 from "./pages/Page404";
+// import Page404 from "./pages/Page404";
 
 class App extends React.Component {
   render() {
@@ -11,7 +11,7 @@ class App extends React.Component {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="*" element={<Page404 />} />
+        {/* <Route path="*" element={<Page404 />} /> */}
       </Routes>
     );
   }
