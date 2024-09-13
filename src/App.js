@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Switch, Route } from "react-router";
+import { Route, Routes } from "react-router";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Page404 from "./pages/Page404";
@@ -8,11 +8,11 @@ import Page404 from "./pages/Page404";
 class App extends React.Component {
   render() {
     return (
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route path="*" component={Page404} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="*" element={<Page404 />} />
+      </Routes>
     );
   }
 }
