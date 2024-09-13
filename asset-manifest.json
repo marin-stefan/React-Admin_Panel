@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/React-Admin_Panel/static/css/main.8ecb2532.chunk.css",
+    "main.js": "/React-Admin_Panel/static/js/main.e07313cd.chunk.js",
+    "main.js.map": "/React-Admin_Panel/static/js/main.e07313cd.chunk.js.map",
+    "runtime-main.js": "/React-Admin_Panel/static/js/runtime-main.ab7a3baf.js",
+    "runtime-main.js.map": "/React-Admin_Panel/static/js/runtime-main.ab7a3baf.js.map",
+    "static/css/2.a22b3768.chunk.css": "/React-Admin_Panel/static/css/2.a22b3768.chunk.css",
+    "static/js/2.ad1c8df7.chunk.js": "/React-Admin_Panel/static/js/2.ad1c8df7.chunk.js",
+    "static/js/2.ad1c8df7.chunk.js.map": "/React-Admin_Panel/static/js/2.ad1c8df7.chunk.js.map",
+    "index.html": "/React-Admin_Panel/index.html",
+    "precache-manifest.acc9184ae305157ba5a122806c79647d.js": "/React-Admin_Panel/precache-manifest.acc9184ae305157ba5a122806c79647d.js",
+    "service-worker.js": "/React-Admin_Panel/service-worker.js",
+    "static/css/2.a22b3768.chunk.css.map": "/React-Admin_Panel/static/css/2.a22b3768.chunk.css.map",
+    "static/css/main.8ecb2532.chunk.css.map": "/React-Admin_Panel/static/css/main.8ecb2532.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab7a3baf.js",
+    "static/css/2.a22b3768.chunk.css",
+    "static/js/2.ad1c8df7.chunk.js",
+    "static/css/main.8ecb2532.chunk.css",
+    "static/js/main.e07313cd.chunk.js"
+  ]
+}
