@@ -35,7 +35,7 @@ function Footer() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://marin-stefan.github.io/portfoliosimple/"
+            href="https://marinstefan.webflow.io"
           >
             Projects
           </a>
@@ -47,7 +47,7 @@ function Footer() {
           <a href="./">Home</a>
         </h5>
         <h5>
-          <a href="./About">About</a>{" "}
+          <a href="./#/About">About</a>{" "}
         </h5>
         <h5>&#9993; stefann06@yahoo.com</h5>
         <h5>&#9743; +40734576702</h5>

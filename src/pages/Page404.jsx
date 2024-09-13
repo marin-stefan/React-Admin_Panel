@@ -1,4 +1,5 @@
 import React from "react";
+import notFoundImage from '../images/screen-shot-2017-11-16-at-3.50.20-pm-1.png';
 
 function Page404() {
   return (
@@ -12,8 +13,9 @@ function Page404() {
       </div>
       <div className="  align-self-center text-center  py-5">
         <img
-          src="https://c.tenor.com/tpJFuWIHFa4AAAAM/steven-seagal-lost.gif"
-          alt="Actor Steven Seagal looking around confused"
+          // src="https://c.tenor.com/tpJFuWIHFa4AAAAM/steven-seagal-lost.gif"
+          src={notFoundImage}
+          alt="Page not found"
         />
       </div>
     </div>

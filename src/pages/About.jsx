@@ -75,7 +75,7 @@ function About() {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/marin-stefan/React-Project1.git"
+                href="https://github.com/marin-stefan/React-Admin_Panel.git"
               >
                 here
               </a>
