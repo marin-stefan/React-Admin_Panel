@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "13ebf54fbfc3b8538a3f673d2c4796ff",
+    "revision": "7a50de24cb212299e6b58595eb3ead89",
     "url": "/React-Admin_Panel/index.html"
   },
   {
-    "revision": "fead09cc81a15fa6b5ad",
-    "url": "/React-Admin_Panel/static/css/2.a22b3768.chunk.css"
+    "revision": "658b9aac34d6d01560aa",
+    "url": "/React-Admin_Panel/static/css/2.cd1d3a8f.chunk.css"
   },
   {
-    "revision": "b1ac55a4729cc966ffc6",
+    "revision": "4705e2b71571e69b8c7b",
     "url": "/React-Admin_Panel/static/css/main.8ecb2532.chunk.css"
   },
   {
-    "revision": "fead09cc81a15fa6b5ad",
+    "revision": "658b9aac34d6d01560aa",
     "url": "/React-Admin_Panel/static/js/2.49c92a05.chunk.js"
   },
   {
-    "revision": "b1ac55a4729cc966ffc6",
-    "url": "/React-Admin_Panel/static/js/main.f4c4b0cb.chunk.js"
+    "revision": "4705e2b71571e69b8c7b",
+    "url": "/React-Admin_Panel/static/js/main.83ee70d0.chunk.js"
   },
   {
     "revision": "4431609294d091a30922",

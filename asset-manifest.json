@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/React-Admin_Panel/static/css/main.8ecb2532.chunk.css",
-    "main.js": "/React-Admin_Panel/static/js/main.f4c4b0cb.chunk.js",
-    "main.js.map": "/React-Admin_Panel/static/js/main.f4c4b0cb.chunk.js.map",
+    "main.js": "/React-Admin_Panel/static/js/main.83ee70d0.chunk.js",
+    "main.js.map": "/React-Admin_Panel/static/js/main.83ee70d0.chunk.js.map",
     "runtime-main.js": "/React-Admin_Panel/static/js/runtime-main.ab7a3baf.js",
     "runtime-main.js.map": "/React-Admin_Panel/static/js/runtime-main.ab7a3baf.js.map",
-    "static/css/2.a22b3768.chunk.css": "/React-Admin_Panel/static/css/2.a22b3768.chunk.css",
+    "static/css/2.cd1d3a8f.chunk.css": "/React-Admin_Panel/static/css/2.cd1d3a8f.chunk.css",
     "static/js/2.49c92a05.chunk.js": "/React-Admin_Panel/static/js/2.49c92a05.chunk.js",
     "static/js/2.49c92a05.chunk.js.map": "/React-Admin_Panel/static/js/2.49c92a05.chunk.js.map",
     "index.html": "/React-Admin_Panel/index.html",
-    "precache-manifest.21b96bc443232535091bdafd22c75719.js": "/React-Admin_Panel/precache-manifest.21b96bc443232535091bdafd22c75719.js",
+    "precache-manifest.ca9bc2a0038439fefa94f7f65df323dd.js": "/React-Admin_Panel/precache-manifest.ca9bc2a0038439fefa94f7f65df323dd.js",
     "service-worker.js": "/React-Admin_Panel/service-worker.js",
-    "static/css/2.a22b3768.chunk.css.map": "/React-Admin_Panel/static/css/2.a22b3768.chunk.css.map",
+    "static/css/2.cd1d3a8f.chunk.css.map": "/React-Admin_Panel/static/css/2.cd1d3a8f.chunk.css.map",
     "static/css/main.8ecb2532.chunk.css.map": "/React-Admin_Panel/static/css/main.8ecb2532.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.ab7a3baf.js",
-    "static/css/2.a22b3768.chunk.css",
+    "static/css/2.cd1d3a8f.chunk.css",
     "static/js/2.49c92a05.chunk.js",
     "static/css/main.8ecb2532.chunk.css",
-    "static/js/main.f4c4b0cb.chunk.js"
+    "static/js/main.83ee70d0.chunk.js"
   ]
 }
